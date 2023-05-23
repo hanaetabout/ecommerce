@@ -16,7 +16,7 @@
         </style>
     </head>
     <body class="antialiased"  >
-        <!-- {{ dd($products) }}  -->
+      
         <div  style="background-image:url({{url('image/image2.jpg')}}) ;background-size: 100% 95%;background-repeat: no-repeat;  margin-top:25px " class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div style="background-color:#f8f8e8; width:100% ; margin-top:-7px; height:68px ;" class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
@@ -39,28 +39,10 @@
             @endif
              
         </div>  
-        <!-- {{ ($products) }}  -->
+          
+
+
         <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
+       
     </body>
 </html>

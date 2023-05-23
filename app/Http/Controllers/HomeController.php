@@ -27,17 +27,17 @@ class HomeController extends Controller
     {
         return view('home');
     } 
-    // public function welcome(): View
-    // {
-    //     $products=Product::all();
-    //     return view('welcome', compact('products'));
-    // } 
-
     public function welcome(): View
     {
-        
-        return view('welcome');
+        $products=Product::all();
+        return view('welcome', compact('products'));
     } 
+
+    // public function welcome(): View
+    // {
+        
+    //     return view('welcome');
+    // } 
   
     /**
      * Show the application dashboard.
